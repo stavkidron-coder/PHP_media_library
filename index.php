@@ -1,29 +1,6 @@
 
-<html>
-    <head>
-        <title>Personal Media Library</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-    </head>
-    <body>
-    
-        <div class="header">
-    
-            <div class="wrapper">
-    
-                <h1 class="branding-title"><a href="/">Personal Media Library</a></h1>
-    
-                <ul class="nav">
-                    <li class="books"><a href="#">Books</a></li>
-                    <li class="movies"><a href="#">Movies</a></li>
-                    <li class="music"><a href="#">Music</a></li>
-                    <li class="suggest"><a href="#">Suggest</a></li>
-                </ul>
-    
-            </div>
-    
-        </div>
-    
-        <div id="content">
+
+<?php include("inc/header.php"); ?>
             <div class="section catalog random">
     
                 <div class="wrapper">
@@ -60,7 +37,7 @@
     
             </div>
     
-        </div>
+        </div> <!-- end content -->
     
         <div class="footer">
     
@@ -71,7 +48,7 @@
                     <li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
                 </ul>
     
-                <p>&copy;2015 Personal Media Library</p>
+                <p>&copy;<?php echo date("Y"); ?> Personal Media Library</p>
     
             </div>
         
