@@ -1,10 +1,4 @@
 <?php
-    $catalog = array(
-        "Design Patterns",
-        "Forrest Gump",
-        "Beethoven"
-    );
-
     $pageTitle = "Full Catalog";
     $section = null;
 
