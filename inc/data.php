@@ -61,7 +61,7 @@
     //Movies
     $catalog[201] = [
         "title" => "Forrest Gump",
-        "img" => "img/forest_gump.jpg",
+        "img" => "img/forrest_gump.jpg",
         "genre" => "Drama",
         "format" => "DVD",
         "year" => 1994,
