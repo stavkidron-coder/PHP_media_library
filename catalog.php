@@ -8,10 +8,10 @@
             $section = "books";
         } else if ($_GET["cat"] == "movies") {
             $pageTitle = "Movies";
-            $section = "books";
+            $section = "movies";
         } else if ($_GET["cat"] == "music") {
             $pageTitle = "Music";
-            $section = "books";
+            $section = "music";
         }   
     }
     
